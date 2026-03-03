@@ -18,10 +18,7 @@ function ShoveBoxButton({ position, setPosition }: PositionProp) {
     );
 }
 
-function MoveableBox({
-    setPosition,
-    position,
-}: PositionProp): React.JSX.Element {
+function MoveableBox({ position }: PositionProp): React.JSX.Element {
     return (
         <div
             data-testid="moveable-box"
