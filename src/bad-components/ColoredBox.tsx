@@ -20,7 +20,7 @@ function ChangeColor({ col, setColor }: ColorProps): React.JSX.Element {
     );
 }
 
-function ColorPreview({ col, setColor }: ColorProps): React.JSX.Element {
+function ColorPreview({ col }: ColorProps): React.JSX.Element {
     return (
         <div
             data-testid="colored-box"
