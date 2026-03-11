@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { Form } from "react-bootstrap";
-import { CheckAnswer } from "./CheckAnswer";
 
 export function MultipleChoiceQuestion({
     options,
